@@ -1,0 +1,17 @@
+﻿@page "{id}"
+@model eticaret.Pages.Products.DetailsModel
+
+@{
+    ViewData["Title"] = "Ürün Detayları";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div>
+    <h3>@Model.Product.Name</h3>
+    <p>Fiyat: @Model.Product.Price</p>
+    <p>Açıklama: @Model.Product.</p>
+    <a asp-page="./Index">Geri Dön</a>
+</div>
+
+

@@ -1,0 +1,648 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|c:\\users\\erdem recber\\desktop\\proje\\eticaret\\eticaret\\eticaret\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|solutionrelative:eticaret\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|c:\\users\\erdem recber\\desktop\\proje\\eticaret\\eticaret\\eticaret\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|solutionrelative:eticaret\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|c:\\users\\erdem recber\\desktop\\proje\\eticaret\\eticaret\\eticaret\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|solutionrelative:eticaret\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|c:\\users\\erdem recber\\desktop\\proje\\eticaret\\eticaret\\eticaret\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|solutionrelative:eticaret\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|c:\\users\\erdem recber\\desktop\\proje\\eticaret\\eticaret\\eticaret\\views\\accaount\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|solutionrelative:eticaret\\views\\accaount\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|c:\\users\\erdem recber\\desktop\\proje\\eticaret\\eticaret\\eticaret\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|solutionrelative:eticaret\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|c:\\users\\erdem recber\\desktop\\proje\\eticaret\\eticaret\\eticaret\\views\\accaount\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|solutionrelative:eticaret\\views\\accaount\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|c:\\users\\erdem recber\\desktop\\proje\\eticaret\\eticaret\\eticaret\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|solutionrelative:eticaret\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|c:\\users\\erdem recber\\desktop\\proje\\eticaret\\eticaret\\eticaret\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|solutionrelative:eticaret\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|c:\\users\\erdem recber\\desktop\\proje\\eticaret\\eticaret\\eticaret\\pages\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|solutionrelative:eticaret\\pages\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|c:\\users\\erdem recber\\desktop\\proje\\eticaret\\eticaret\\eticaret\\pages\\cart\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|solutionrelative:eticaret\\pages\\cart\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|c:\\users\\erdem recber\\desktop\\proje\\eticaret\\eticaret\\eticaret\\pages\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|solutionrelative:eticaret\\pages\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|c:\\users\\erdem recber\\desktop\\proje\\eticaret\\eticaret\\eticaret\\pages\\admin\\dashboard.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|solutionrelative:eticaret\\pages\\admin\\dashboard.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|c:\\users\\erdem recber\\desktop\\proje\\eticaret\\eticaret\\eticaret\\pages\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|solutionrelative:eticaret\\pages\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|c:\\users\\erdem recber\\desktop\\proje\\eticaret\\eticaret\\eticaret\\pages\\admin\\addproduct.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|solutionrelative:eticaret\\pages\\admin\\addproduct.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|c:\\users\\erdem recber\\desktop\\proje\\eticaret\\eticaret\\eticaret\\pages\\admin\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|solutionrelative:eticaret\\pages\\admin\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|c:\\users\\erdem recber\\desktop\\proje\\eticaret\\eticaret\\eticaret\\pages\\admin\\products\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|solutionrelative:eticaret\\pages\\admin\\products\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|c:\\users\\erdem recber\\desktop\\proje\\eticaret\\eticaret\\eticaret\\pages\\admin\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|solutionrelative:eticaret\\pages\\admin\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|c:\\users\\erdem recber\\desktop\\proje\\eticaret\\eticaret\\eticaret\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|solutionrelative:eticaret\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|c:\\users\\erdem recber\\desktop\\proje\\eticaret\\eticaret\\eticaret\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|solutionrelative:eticaret\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|c:\\users\\erdem recber\\desktop\\proje\\eticaret\\eticaret\\eticaret\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|solutionrelative:eticaret\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|c:\\users\\erdem recber\\desktop\\proje\\eticaret\\eticaret\\eticaret\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|solutionrelative:eticaret\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|c:\\users\\erdem recber\\desktop\\proje\\eticaret\\eticaret\\eticaret\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|solutionrelative:eticaret\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|c:\\users\\erdem recber\\desktop\\proje\\eticaret\\eticaret\\eticaret\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|solutionrelative:eticaret\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|c:\\users\\erdem recber\\desktop\\proje\\eticaret\\eticaret\\eticaret\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|solutionrelative:eticaret\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|c:\\users\\erdem recber\\desktop\\proje\\eticaret\\eticaret\\eticaret\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|solutionrelative:eticaret\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|c:\\users\\erdem recber\\desktop\\proje\\eticaret\\eticaret\\eticaret\\migrations\\20240910205438_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|solutionrelative:eticaret\\migrations\\20240910205438_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|c:\\users\\erdem recber\\desktop\\proje\\eticaret\\eticaret\\eticaret\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|solutionrelative:eticaret\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|c:\\users\\erdem recber\\desktop\\proje\\eticaret\\eticaret\\eticaret\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|solutionrelative:eticaret\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|c:\\users\\erdem recber\\desktop\\proje\\eticaret\\eticaret\\eticaret\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|solutionrelative:eticaret\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|c:\\users\\erdem recber\\desktop\\proje\\eticaret\\eticaret\\eticaret\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|solutionrelative:eticaret\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|c:\\users\\erdem recber\\desktop\\proje\\eticaret\\eticaret\\eticaret\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|solutionrelative:eticaret\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|c:\\users\\erdem recber\\desktop\\proje\\eticaret\\eticaret\\eticaret\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|solutionrelative:eticaret\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|c:\\users\\erdem recber\\desktop\\proje\\eticaret\\eticaret\\eticaret\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|solutionrelative:eticaret\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|c:\\users\\erdem recber\\desktop\\proje\\eticaret\\eticaret\\eticaret\\migrations\\20240912161453_addidentitytables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|solutionrelative:eticaret\\migrations\\20240912161453_addidentitytables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|c:\\users\\erdem recber\\desktop\\proje\\eticaret\\eticaret\\eticaret\\migrations\\20240913162146_addimageurltoproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|solutionrelative:eticaret\\migrations\\20240913162146_addimageurltoproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|c:\\users\\erdem recber\\desktop\\proje\\eticaret\\eticaret\\eticaret\\migrations\\20240913171926_addstocktoproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|solutionrelative:eticaret\\migrations\\20240913171926_addstocktoproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|c:\\users\\erdem recber\\desktop\\proje\\eticaret\\eticaret\\eticaret\\migrations\\20240914163807_adduseridtocartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|solutionrelative:eticaret\\migrations\\20240914163807_adduseridtocartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|c:\\users\\erdem recber\\desktop\\proje\\eticaret\\eticaret\\eticaret\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA82AAFD-12BE-43F8-8D42-670465BAEC4A}|eticaret\\eticaret.csproj|solutionrelative:eticaret\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Views\\Accaount\\Login.cshtml",
+              "RelativeDocumentMoniker": "eticaret\\Views\\Accaount\\Login.cshtml",
+              "ToolTip": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Views\\Accaount\\Login.cshtml",
+              "RelativeToolTip": "eticaret\\Views\\Accaount\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-15T15:07:45.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "eticaret\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "eticaret\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-15T15:07:48.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Pages\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "eticaret\\Pages\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Pages\\Products\\Index.cshtml",
+              "RelativeToolTip": "eticaret\\Pages\\Products\\Index.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-15T13:36:36.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Pages\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "eticaret\\Pages\\Cart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Pages\\Cart\\Index.cshtml",
+              "RelativeToolTip": "eticaret\\Pages\\Cart\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-15T10:22:49.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Pages\\Cart\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "eticaret\\Pages\\Cart\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Pages\\Cart\\Index.cshtml.cs",
+              "RelativeToolTip": "eticaret\\Pages\\Cart\\Index.cshtml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T11:37:39.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "eticaret\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "eticaret\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-15T15:25:57.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "eticaret\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "eticaret\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-15T15:17:34.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "eticaret\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "eticaret\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAswCUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T15:17:36.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Views\\Accaount\\Register.cshtml",
+              "RelativeDocumentMoniker": "eticaret\\Views\\Accaount\\Register.cshtml",
+              "ToolTip": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Views\\Accaount\\Register.cshtml",
+              "RelativeToolTip": "eticaret\\Views\\Accaount\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-15T15:09:25.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "eticaret\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Services\\ProductService.cs",
+              "RelativeToolTip": "eticaret\\Services\\ProductService.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowDwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T15:09:30.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Services\\CartService.cs",
+              "RelativeDocumentMoniker": "eticaret\\Services\\CartService.cs",
+              "ToolTip": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Services\\CartService.cs",
+              "RelativeToolTip": "eticaret\\Services\\CartService.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAkwEgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T11:38:42.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Pages\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "eticaret\\Pages\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Pages\\Privacy.cshtml",
+              "RelativeToolTip": "eticaret\\Pages\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-15T15:29:09.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Dashboard.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Pages\\Admin\\Dashboard.cshtml.cs",
+              "RelativeDocumentMoniker": "eticaret\\Pages\\Admin\\Dashboard.cshtml.cs",
+              "ToolTip": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Pages\\Admin\\Dashboard.cshtml.cs",
+              "RelativeToolTip": "eticaret\\Pages\\Admin\\Dashboard.cshtml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T15:17:00.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Pages\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "eticaret\\Pages\\Admin\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Pages\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "eticaret\\Pages\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-15T15:16:57.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AddProduct.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Pages\\Admin\\AddProduct.cshtml.cs",
+              "RelativeDocumentMoniker": "eticaret\\Pages\\Admin\\AddProduct.cshtml.cs",
+              "ToolTip": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Pages\\Admin\\AddProduct.cshtml.cs",
+              "RelativeToolTip": "eticaret\\Pages\\Admin\\AddProduct.cshtml.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T15:17:12.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AddProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Pages\\Admin\\AddProduct.cshtml",
+              "RelativeDocumentMoniker": "eticaret\\Pages\\Admin\\AddProduct.cshtml",
+              "ToolTip": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Pages\\Admin\\AddProduct.cshtml",
+              "RelativeToolTip": "eticaret\\Pages\\Admin\\AddProduct.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-15T15:17:10.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Pages\\Admin\\Products\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "eticaret\\Pages\\Admin\\Products\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Pages\\Admin\\Products\\Index.cshtml.cs",
+              "RelativeToolTip": "eticaret\\Pages\\Admin\\Products\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T15:17:25.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Pages\\Admin\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "eticaret\\Pages\\Admin\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Pages\\Admin\\Products\\Index.cshtml",
+              "RelativeToolTip": "eticaret\\Pages\\Admin\\Products\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-15T15:17:20.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "eticaret\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "eticaret\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAwwDUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T15:18:24.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Logout.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeDocumentMoniker": "eticaret\\Pages\\Account\\Logout.cshtml.cs",
+              "ToolTip": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeToolTip": "eticaret\\Pages\\Account\\Logout.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T15:18:19.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Pages\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "eticaret\\Pages\\Account\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Pages\\Account\\Logout.cshtml",
+              "RelativeToolTip": "eticaret\\Pages\\Account\\Logout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-15T15:25:54.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Models\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "eticaret\\Models\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Models\\RegisterViewModel.cs",
+              "RelativeToolTip": "eticaret\\Models\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T15:19:01.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "eticaret\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Models\\Product.cs",
+              "RelativeToolTip": "eticaret\\Models\\Product.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T15:19:03.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "eticaret\\Models\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "eticaret\\Models\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T15:19:51.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "eticaret\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Models\\CartItem.cs",
+              "RelativeToolTip": "eticaret\\Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T11:55:35.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "eticaret\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "eticaret\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T15:19:56.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20240910205438_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Migrations\\20240910205438_InitialCreate.cs",
+              "RelativeDocumentMoniker": "eticaret\\Migrations\\20240910205438_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Migrations\\20240910205438_InitialCreate.cs",
+              "RelativeToolTip": "eticaret\\Migrations\\20240910205438_InitialCreate.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T15:20:16.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "eticaret\\Data\\SeedData.cs",
+              "ToolTip": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Data\\SeedData.cs",
+              "RelativeToolTip": "eticaret\\Data\\SeedData.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T15:20:20.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "eticaret\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "eticaret\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T15:20:39.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "eticaret\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "eticaret\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T15:21:02.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "eticaret\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Controllers\\CartController.cs",
+              "RelativeToolTip": "eticaret\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T15:21:05.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "eticaret\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "eticaret\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAowEoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T15:21:40.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "eticaret\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "eticaret\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-15T15:23:11.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20240912161453_AddIdentityTables.cs",
+              "DocumentMoniker": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Migrations\\20240912161453_AddIdentityTables.cs",
+              "RelativeDocumentMoniker": "eticaret\\Migrations\\20240912161453_AddIdentityTables.cs",
+              "ToolTip": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Migrations\\20240912161453_AddIdentityTables.cs",
+              "RelativeToolTip": "eticaret\\Migrations\\20240912161453_AddIdentityTables.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T15:20:14.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20240913162146_AddImageUrlToProduct.cs",
+              "DocumentMoniker": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Migrations\\20240913162146_AddImageUrlToProduct.cs",
+              "RelativeDocumentMoniker": "eticaret\\Migrations\\20240913162146_AddImageUrlToProduct.cs",
+              "ToolTip": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Migrations\\20240913162146_AddImageUrlToProduct.cs",
+              "RelativeToolTip": "eticaret\\Migrations\\20240913162146_AddImageUrlToProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T15:20:11.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20240913171926_AddStockToProduct.cs",
+              "DocumentMoniker": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Migrations\\20240913171926_AddStockToProduct.cs",
+              "RelativeDocumentMoniker": "eticaret\\Migrations\\20240913171926_AddStockToProduct.cs",
+              "ToolTip": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Migrations\\20240913171926_AddStockToProduct.cs",
+              "RelativeToolTip": "eticaret\\Migrations\\20240913171926_AddStockToProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T15:20:10.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "eticaret\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "eticaret\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T15:20:04.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20240914163807_AddUserIdToCartItem.cs",
+              "DocumentMoniker": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Migrations\\20240914163807_AddUserIdToCartItem.cs",
+              "RelativeDocumentMoniker": "eticaret\\Migrations\\20240914163807_AddUserIdToCartItem.cs",
+              "ToolTip": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Migrations\\20240914163807_AddUserIdToCartItem.cs",
+              "RelativeToolTip": "eticaret\\Migrations\\20240914163807_AddUserIdToCartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T15:20:07.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Program.cs",
+              "RelativeDocumentMoniker": "eticaret\\Program.cs",
+              "ToolTip": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\Program.cs",
+              "RelativeToolTip": "eticaret\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T12:12:35.736Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+﻿@foreach (var product in Model.Products)
+{
+    <div class="product-item">
+        <img src="~/images/@product.ImageUrl" alt="@product.Name" />
+        <h3>@product.Name</h3>
+        <p>@product.Price.ToString("C")</p>
+        <a href="/Admin/Edit?id=@product.Id">Düzenle</a>
+        <form method="post" asp-page="/Admin/Delete" asp-route-id="@product.Id" onsubmit="return confirm('Silmek istediğinizden emin misiniz?');">
+            <button type="submit">Sil</button>
+        </form>
+    </div>
+}

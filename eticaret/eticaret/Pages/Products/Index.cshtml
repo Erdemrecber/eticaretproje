@@ -1,0 +1,47 @@
+﻿@page
+@model eticaret.Pages.Products.IndexModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Products</title>
+</head>
+<body>
+    <h1>Products</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in Model.Products)
+            {
+                <tr>
+                    <td>@product.Name</td>
+                    <td>@product.Price</td>
+                    <td>
+                        <form method="post" asp-page-handler="AddToCart">
+                            <input type="hidden" name="productId" value="@product.Id" />
+                            <input type="number" name="quantity" value="1" />
+                            <button type="submit">Add to Cart</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <h2>Cart</h2>
+    <ul>
+        @foreach (var item in Model.CartItems)
+        {
+            <li>@item.Product.Name - @item.Quantity - @item.Product.Price * item.Quantity</li>
+        }
+    </ul>
+    <p>Total Price: @Model.TotalPrice</p>
+</body>
+</html>

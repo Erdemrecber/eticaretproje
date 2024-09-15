@@ -1,0 +1,63 @@
+﻿@page
+@model eticaret.Pages.Admin.IndexModel
+@{
+    ViewData["Title"] = "Yönetici Paneli";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/site.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <a href="/">My E-Commerce</a>
+            </div>
+            <div class="user-actions">
+                <a href="/Account/Logout">Çıkış Yap</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h1>Yönetici Paneli</h1>
+        <section>
+            <h2>Ürünleri Yönet</h2>
+            <a href="/Admin/AddProduct">Yeni Ürün Ekle</a>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Ad</th>
+                        <th>Fiyat</th>
+                        <th>Stok</th>
+                        <th>İşlemler</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var product in Model.Products)
+                    {
+                        <tr>
+                            <td>@product.Name</td>
+                            <td>@product.Price.ToString("C")</td>
+                            <td>@product.</td>
+                            <td>
+                                <a href="/Admin/EditProduct?id=@product.Id">Düzenle</a> |
+                                <a href="/Admin/DeleteProduct?id=@product.Id">Sil</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <p>© 2024 My E-Commerce. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+</body>
+</html>

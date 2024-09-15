@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/site.css">
+    <style>
+        .user-menu {
+            display: none;
+            position: absolute;
+            background: white;
+            border: 1px solid #ccc;
+            padding: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .user-actions:hover .user-menu {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="/">My E-Commerce</a>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Ürün ara..." />
+                <button type="submit">Ara</button>
+            </div>
+            <div class="user-actions">
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <div class="dropdown">
+                        <a href="#">@User.Identity.Name</a>
+                        <div class="dropdown-content">
+                            <a href="/Account/Logout">Çıkış Yap</a>
+                        </div>
+                    </div>
+                }
+                else
+                {
+                    <a href="/Account/Login">Giriş Yap</a>
+                    <a href="/Account/Register">Kayıt Ol</a>
+                }
+                <a href="/Cart">Sepet</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        @RenderBody()
+    </main>
+    <footer>
+        <div class="container">
+            <p>© 2024 My E-Commerce. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+</body>
+</html>
