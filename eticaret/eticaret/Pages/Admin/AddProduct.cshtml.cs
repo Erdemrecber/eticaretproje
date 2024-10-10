@@ -47,7 +47,7 @@ namespace eticaret.Pages.Admin
             _context.Products.Add(product);
             await _context.SaveChangesAsync();
 
-            return RedirectToPage("/Index");
+            return RedirectToPage("/Admin/Dashboard");
         }
     }
 }

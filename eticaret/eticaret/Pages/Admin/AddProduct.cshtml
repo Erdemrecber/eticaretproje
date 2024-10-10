@@ -16,42 +16,46 @@
     <header>
         <div class="header-container">
             <div class="logo">
-                <a href="/">My E-Commerce</a>
+                <a href="/"> E-ticaret</a>
             </div>
             <div class="user-actions">
                 <a href="/Account/Logout">Çıkış Yap</a>
             </div>
         </div>
     </header>
+
     <main>
-        <h1>Yeni Ürün Ekle</h1>
-        <form method="post">
-            <div>
-                <label for="name">Ürün Adı</label>
-                <input type="text" id="name" name="Name" />
-            </div>
-            <div>
-                <label for="price">Fiyat</label>
-                <input type="text" id="price" name="Price" />
-            </div>
-            <div>
-                <label for="stock">Stok</label>
-                <input type="number" id="stock" name="Stock" />
-            </div>
-            <div>
-                <label for="description">Açıklama</label>
-                <textarea id="description" name="Description"></textarea>
-            </div>
-            <div>
-                <label for="imageUrl">Resim URL</label>
-                <input type="text" id="imageUrl" name="ImageUrl" />
-            </div>
-            <button type="submit">Ekle</button>
-        </form>
+        <div class="form-container">
+            <h1>Yeni Ürün Ekle</h1>
+            <form method="post" class="add-product-form">
+                <div class="form-group">
+                    <label for="name">Ürün Adı</label>
+                    <input type="text" id="name" name="Name" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label for="price">Fiyat</label>
+                    <input type="text" id="price" name="Price" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label for="stock">Stok</label>
+                    <input type="number" id="stock" name="Stock" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label for="description">Açıklama</label>
+                    <textarea id="description" name="Description" class="form-control"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="imageUrl">Resim URL</label>
+                    <input type="text" id="imageUrl" name="ImageUrl" class="form-control" />
+                </div>
+                <button type="submit" class="btn-submit">Ürünü Ekle</button>
+            </form>
+        </div>
     </main>
+
     <footer>
         <div class="footer-container">
-            <p>© 2024 My E-Commerce. Tüm hakları saklıdır.</p>
+            <p>© 2024 eticaret. Tüm hakları saklıdır.</p>
         </div>
     </footer>
 </body>

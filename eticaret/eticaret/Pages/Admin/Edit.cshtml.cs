@@ -33,15 +33,30 @@ namespace eticaret.Pages.Admin
 
         public async Task<IActionResult> OnPostAsync()
         {
+            
+            Console.WriteLine("POST isteği geldi!");
+
             if (!ModelState.IsValid)
             {
+                Console.WriteLine("Model doğrulaması başarısız.");
+
+                foreach (var modelState in ViewData.ModelState.Values)
+                {
+                    foreach (var error in modelState.Errors)
+                    {
+                        Console.WriteLine(error.ErrorMessage);
+                    }
+                }
+
                 return Page();
             }
 
+            
             var productToUpdate = await _context.Products.FindAsync(Product.Id);
 
             if (productToUpdate == null)
             {
+                Console.WriteLine("Ürün bulunamadı.");
                 return NotFound();
             }
 
@@ -51,7 +66,19 @@ namespace eticaret.Pages.Admin
             productToUpdate.Stock = Product.Stock;
             productToUpdate.ImageUrl = Product.ImageUrl;
 
-            await _context.SaveChangesAsync();
+            try
+            {
+                
+                await _context.SaveChangesAsync();
+                Console.WriteLine($"Ürün güncellendi: {Product.Name}, Fiyat: {Product.Price}");
+            }
+            catch (DbUpdateException ex)
+            {
+                
+                Console.WriteLine($"Güncelleme hatası: {ex.Message}");
+                ModelState.AddModelError(string.Empty, "Ürünü güncellerken bir hata oluştu.");
+                return Page();
+            }
 
             return RedirectToPage("/Admin/Dashboard");
         }

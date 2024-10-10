@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ub71MQAT5wE=",
+  "dgSpecHash": "suqHDmhHhxg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\eticaret.csproj",
+  "projectFilePath": "C:\\Users\\ERDEM RECBER\\Desktop\\eticaret\\eticaret\\eticaret.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ERDEM RECBER\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\ERDEM RECBER\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

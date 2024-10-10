@@ -36,7 +36,7 @@ namespace eticaret.Pages.Account
 
             if (Input.Password != Input.ConfirmPassword)
             {
-                ModelState.AddModelError(string.Empty, "Passwords do not match.");
+                ModelState.AddModelError(string.Empty, "Şifreler eşleşmiyor.");
                 return Page();
             }
 

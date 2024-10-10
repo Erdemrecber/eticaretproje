@@ -4,86 +4,60 @@
     ViewData["Title"] = "Sepet";
 }
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewData["Title"]</title>
-    <link rel="stylesheet" href="~/css/site.css">
-</head>
-<body>
-    <header>
-        <div class="header-container">
-            <div class="logo">
-                <a href="/">My E-Commerce</a>
-            </div>
-            <div class="search-bar">
-                <input type="text" placeholder="Ürün ara..." />
-                <button type="submit">Ara</button>
-            </div>
-            <div class="user-actions">
-                @if (User.Identity.IsAuthenticated)
+<main>
+    <h2>Sepet</h2>
+    @if (Model.CartItems != null && Model.CartItems.Any())
+    {
+        <table>
+            <thead>
+                <tr>
+                    <th>Ürün Resmi</th>
+                    <th>Ürün Adı</th>
+                    <th>Fiyat</th>
+                    <th>Miktar</th>
+                    <th>Toplam Fiyat</th>
+                    <th>İşlem</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.CartItems)
                 {
-                    <div class="dropdown">
-                        <a href="#">@User.Identity.Name</a>
-                        <div class="dropdown-content">
-                            <a href="/Account/Logout">Çıkış Yap</a> 
-                        </div>
-                    </div>
-                }
-                else
-                {
-                    <a href="/Account/Login">Giriş Yap</a>
-                    <a href="/Account/Register">Kayıt Ol</a>
-                }
-                <a href="/Cart">Sepet</a>
-            </div>
-        </div>
-    </header>
-
-    <main>
-        <h2>Sepet</h2>
-        @if (Model.CartItems != null && Model.CartItems.Any())
-        {
-            <table>
-                <thead>
                     <tr>
-                        <th>Ürün Adı</th>
-                        <th>Fiyat</th>
-                        <th>İşlem</th>
+                        <td>
+                            
+                            <img src="@item.Product.ImageUrl" alt="@item.Product.Name" width="50" height="50" />
+                        </td>
+                        <td>@item.Product.Name</td>
+                        <td>@(item.Product.Price.ToString("C", new System.Globalization.CultureInfo("tr-TR")))</td> 
+                        <td>@item.Quantity</td> 
+                        <td>@((item.Quantity * item.Product.Price).ToString("C", new System.Globalization.CultureInfo("tr-TR")))</td> 
+                        <td>
+                            <form method="post" asp-page-handler="RemoveFromCart">
+                                <input type="hidden" name="productId" value="@item.ProductId" />
+                                <button type="submit">Kaldır</button>
+                            </form>
+                        </td>
                     </tr>
-                </thead>
-                <tbody>
-                    @foreach (var item in Model.CartItems)
-                    {
-                        <tr>
-                            <td>@item.Product.Name</td>
-                            <td>@item.Product.Price.ToString("C")</td>
-                            <td>
-                                <form method="post" asp-page-handler="RemoveFromCart" asp-route-id="@item.Product.Id">
-                                    <button type="submit">Kaldır</button>
-                                </form>
-                            </td>
-                        </tr>
-                    }
-                </tbody>
-            </table>
-        }
-        else
-        {
-            <p>Sepetiniz boş.</p>
-        }
+                }
+                
+                <tr>
+                    <td colspan="4" style="text-align:right"><strong>Toplam Fiyat:</strong></td>
+                    <td><strong>@(Model.TotalPrice.ToString("C", new System.Globalization.CultureInfo("tr-TR")))</strong></td> 
+                </tr>
+            </tbody>
+        </table>
+       
+        <form method="post" asp-page-handler="Purchase">
+            <button type="submit">Sepeti Satın Al</button>
+        </form>
 
-        <a href="/">Alışverişe Devam Et</a> 
-    </main>
+    }
+    else
+    {
+        <p>Sepetiniz boş.</p>
+    }
 
-    <footer>
-        <div class="footer-container">
-            <p>© 2024 My E-Commerce. Tüm hakları saklıdır.</p>
-            <a href="/Contact">İletişim</a>
-            <a href="/Privacy">Gizlilik</a>
-        </div>
-    </footer>
-</body>
-</html>
+    <a href="/">Alışverişe Devam Et</a>
+    
+    
+</main>

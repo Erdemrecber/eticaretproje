@@ -35,15 +35,15 @@ namespace eticaret.Pages.Account
                 return Page();
             }
 
-            //  email adresini bulma
+            
             var user = await _userManager.FindByEmailAsync(Input.Email);
             if (user == null)
             {
-                ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+                ModelState.AddModelError(string.Empty, "Email veya şifre hatalı.");
                 return Page();
             }
 
-            // Şifreyi kontrol etme
+            
             var result = await _signInManager.PasswordSignInAsync(user.UserName, Input.Password, Input.RememberMe, lockoutOnFailure: false);
 
             if (result.Succeeded)
@@ -51,21 +51,21 @@ namespace eticaret.Pages.Account
                 var roles = await _userManager.GetRolesAsync(user);
                 if (roles.Contains("Admin"))
                 {
-                    return RedirectToPage("/Admin/Dashboard"); // Admin paneli sayfasına yönlendirme
+                    return RedirectToPage("/Admin/Dashboard"); 
                 }
                 else
                 {
-                    return RedirectToPage("/Index"); // Normal kullanıcı için ana sayfa
+                    return RedirectToPage("/Index"); 
                 }
             }
 
             if (result.IsLockedOut)
             {
-                ModelState.AddModelError(string.Empty, "Account is locked out.");
+                ModelState.AddModelError(string.Empty, "Hesap kilitlendi.");
             }
             else
             {
-                ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+                ModelState.AddModelError(string.Empty, "Email veya şifre hatalı.");
             }
 
             return Page();

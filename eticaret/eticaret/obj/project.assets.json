@@ -5271,11 +5271,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\eticaret.csproj",
+      "projectUniqueName": "C:\\Users\\ERDEM RECBER\\Desktop\\eticaret\\eticaret\\eticaret.csproj",
       "projectName": "eticaret",
-      "projectPath": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\eticaret.csproj",
+      "projectPath": "C:\\Users\\ERDEM RECBER\\Desktop\\eticaret\\eticaret\\eticaret.csproj",
       "packagesPath": "C:\\Users\\ERDEM RECBER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ERDEM RECBER\\Desktop\\proje\\eticaret\\eticaret\\eticaret\\obj\\",
+      "outputPath": "C:\\Users\\ERDEM RECBER\\Desktop\\eticaret\\eticaret\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ERDEM RECBER\\AppData\\Roaming\\NuGet\\NuGet.Config",

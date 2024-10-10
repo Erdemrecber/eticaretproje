@@ -1,0 +1,51 @@
+﻿@page
+@model eticaret.Pages.Cart.PurchaseModel
+@{
+    ViewData["Title"] = "Satın Alma";
+}
+
+<h2>Satın Alma İşlemi</h2>
+
+<form method="post" class="purchase-form">
+    <fieldset>
+        <legend>Adres Bilgileri</legend>
+        <div class="form-group">
+            <label for="Address">Adres:</label>
+            <input type="text" id="Address" name="Address" class="form-control" required />
+        </div>
+        <div class="form-group">
+            <label for="City">Şehir:</label>
+            <input type="text" id="City" name="City" class="form-control" required />
+        </div>
+        <div class="form-group">
+            <label for="PostalCode">Posta Kodu:</label>
+            <input type="text" id="PostalCode" name="PostalCode" class="form-control" required />
+        </div>
+        <div class="form-group">
+            <label for="Country">Ülke:</label>
+            <input type="text" id="Country" name="Country" class="form-control" required />
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Ödeme Bilgileri</legend>
+        <div class="form-group">
+            <label for="CardName">Kart Üzerindeki İsim:</label>
+            <input type="text" id="CardName" name="CardName" class="form-control" required />
+        </div>
+        <div class="form-group">
+            <label for="CardNumber">Kart Numarası:</label>
+            <input type="text" id="CardNumber" name="CardNumber" class="form-control" required pattern="[0-9]{16}" />
+        </div>
+        <div class="form-group">
+            <label for="ExpirationDate">Son Kullanma Tarihi:</label>
+            <input type="text" id="ExpirationDate" name="ExpirationDate" class="form-control" required placeholder="MM/YY" />
+        </div>
+        <div class="form-group">
+            <label for="CVV">CVV:</label>
+            <input type="text" id="CVV" name="CVV" class="form-control" required pattern="[0-9]{3}" />
+        </div>
+    </fieldset>
+
+    <button type="submit" class="btn-submit">Satın Al</button>
+</form>

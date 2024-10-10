@@ -1,5 +1,7 @@
 ﻿using eticaret.Data;
 using eticaret.Models;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Threading.Tasks;
@@ -15,7 +17,7 @@ namespace eticaret.Services
             _context = context;
         }
 
-        // Sepete ürün ekleme
+       
         public async Task AddToCartAsync(int productId, string userId, int quantity = 1)
         {
             var cartItem = await _context.CartItems
@@ -41,7 +43,7 @@ namespace eticaret.Services
             await _context.SaveChangesAsync();
         }
 
-        // Toplam fiyatı hesaplama
+        
         public async Task<decimal> GetTotalPriceAsync(string userId)
         {
             var cartItems = await _context.CartItems
@@ -52,25 +54,21 @@ namespace eticaret.Services
             return cartItems.Sum(c => c.Quantity * c.Product.Price);
         }
 
-        // Sepetteki ürünleri listeleme
-        public async Task<List<CartItem>> GetCartItemsAsync(string userId)
+        
+        public async Task<List<CartItem>> GetCartItemsAsync(string userName)
         {
+            
             var cartItems = await _context.CartItems
-                .Where(c => c.UserId == userId)
+                .Where(c => c.UserId == userName)  
                 .Include(c => c.Product)  
                 .ToListAsync();
-
-            
-            Console.WriteLine("Sepetteki Ürünler:");
-            foreach (var item in cartItems)
-            {
-                Console.WriteLine($"Ürün: {item.Product.Name}, Miktar: {item.Quantity}, Fiyat: {item.Product.Price}");
-            }
 
             return cartItems;
         }
 
-        // Sepetten ürün kaldırma
+
+
+        
         public async Task RemoveFromCartAsync(int productId, string userId)
         {
             var cartItem = await _context.CartItems
@@ -83,28 +81,45 @@ namespace eticaret.Services
             }
         }
 
-        internal async Task AddToCartAsync(Product product, int quantity, string userId)
+        public async Task AddToCartAsync(int productId, int quantity, string userName)
         {
+            
             var cartItem = await _context.CartItems
-        .FirstOrDefaultAsync(c => c.ProductId == product.Id && c.UserId == userId);
+                .FirstOrDefaultAsync(c => c.ProductId == productId && c.UserId == userName);  
 
             if (cartItem == null)
             {
+                
                 cartItem = new CartItem
                 {
-                    ProductId = product.Id,
-                    UserId = userId,
+                    ProductId = productId,
+                    UserId = userName,  
                     Quantity = quantity
                 };
                 _context.CartItems.Add(cartItem);
             }
             else
             {
+                
                 cartItem.Quantity += quantity;
                 _context.CartItems.Update(cartItem);
             }
 
+            await _context.SaveChangesAsync();  
+        }
+
+        public async Task ClearCartAsync(string userId)
+        {
+            var cartItems = await _context.CartItems
+                .Where(c => c.UserId == userId)
+                .ToListAsync();
+
+            _context.CartItems.RemoveRange(cartItems);
             await _context.SaveChangesAsync();
         }
+
+
+
+
     }
 }

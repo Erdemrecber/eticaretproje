@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="~/css/site.css">
 </head>
 <body>
+    
     <header>
         <div class="header-container">
             <div class="logo">
@@ -25,61 +26,62 @@
             <div class="user-actions">
                 @if (User.Identity.IsAuthenticated)
                 {
-                        <div class="dropdown">
-                            <a href="#">@User.Identity.Name</a>
-                            <div class="dropdown-content">
-                                <a href="/Account/Logout">Çıkış Yap</a> 
-                            </div>
+                    <div class="dropdown">
+                        <a href="#">@User.Identity.Name</a>
+                        <div class="dropdown-content">
+                            <a href="/Account/Logout">Çıkış Yap</a>
                         </div>
+                    </div>
                 }
                 else
                 {
-                        <a href="/Account/Login">Giriş Yap</a>
-                        <a href="/Account/Register">Kayıt Ol</a>
+                    <a href="/Account/Login">Giriş Yap</a>
+                    <a href="/Account/Register">Kayıt Ol</a>
                 }
-                <a href="/Cart">Sepet</a>
+                <a href="/Cart" class="cart-link">Sepet</a>
             </div>
         </div>
     </header>
 
-    <main>
-        <div class="banner">
-            <img src="/img/Neon Şık Havalı Büyük İndirim Günleri Reklam Bandı.png" alt="Banner" class="banner-image" />
+    
+    <div class="banner">
+        <img src="/img/Neon Şık Havalı Büyük İndirim Günleri Reklam Bandı.png" alt="Büyük İndirim" class="banner-image" />
+    </div>
+
+    
+    <section class="product-list">
+        <h2>Öne Çıkan Ürünler</h2>
+        <div class="product-items">
+            @if (Model.Products != null && Model.Products.Any())
+            {
+                @foreach (var product in Model.Products)
+                {
+                    <div class="product-item">
+                        <img src="@product.ImageUrl" alt="@product.Name" class="product-image" />
+                        <h3>@product.Name</h3>
+                        <p>@product.Price.ToString("C")</p>
+                        <form method="post" asp-page-handler="AddToCart" asp-route-id="@product.Id">
+                            <button type="submit">Sepete Ekle</button>
+                        </form>
+                    </div>
+                }
+            }
+            else
+            {
+                <p>Şu anda öne çıkan ürün yok.</p>
+            }
         </div>
+    </section>
 
-        
-
-        
-        <section class="product-list">
-            <h2>Öne Çıkan Ürünler</h2>
-            <div class="product-items">
-                @if (Model.Products != null && Model.Products.Any())
-                {
-                    @foreach (var product in Model.Products)
-                    {
-                                <div class="product-item">
-                                    <img src="@product.ImageUrl" alt="@product.Name" class="product-image" />
-                                    <h3>@product.Name</h3>
-                                    <p>@product.Price.ToString("C")</p>
-                                    <form method="post" asp-page-handler="AddToCart" asp-route-id="@product.Id">
-                                        <button type="submit">Sepete Ekle</button>
-                                    </form>
-                                </div>
-                    }
-                }
-                else
-                {
-                        <p>Şu anda öne çıkan ürün yok.</p> 
-                }
-            </div>
-        </section>
-    </main>
-
+    
     <footer>
         <div class="footer-container">
-            <p>© 2024 My E-Commerce. Tüm hakları saklıdır.</p>
-            <a href="/Contact">İletişim</a>
-            <a href="/Privacy">Gizlilik</a>
+            <div class="footer-links">
+                <a href="/About">Hakkımızda</a>
+                <a href="/Contact">İletişim</a>
+                <a href="/Privacy">Gizlilik Politikası</a>
+            </div>
+            <p>© 2024 E-Ticaret. Tüm hakları saklıdır.</p>
         </div>
     </footer>
 </body>

@@ -16,7 +16,7 @@
     <header>
         <div class="container">
             <div class="logo">
-                <a href="/">My E-Commerce</a>
+                <a href="/"> E-ticaret</a>
             </div>
             <div class="user-actions">
                 <a href="/Account/Logout">Çıkış Yap</a>
@@ -45,7 +45,7 @@
                             <td>@product.Price.ToString("C")</td>
                             <td>@product.Stock</td>
                             <td>
-                                <a href="/Admin/Edit?id=@product.Id">Düzenle</a> |
+                                <a href="/Admin/Edit/@product.Id">Düzenle</a> |
                                 <a href="/Admin/Delete?id=@product.Id">Sil</a>
                             </td>
                         </tr>
@@ -56,7 +56,7 @@
     </main>
     <footer>
         <div class="container">
-            <p>© 2024 My E-Commerce. Tüm hakları saklıdır.</p>
+            <p>© 2024  E-ticaret. Tüm hakları saklıdır.</p>
         </div>
     </footer>
 </body>

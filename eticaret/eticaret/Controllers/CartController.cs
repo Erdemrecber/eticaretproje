@@ -22,7 +22,7 @@ namespace eticaret.Controllers
             var user = await _userManager.GetUserAsync(User);
             if (user == null)
             {
-                return RedirectToAction("Login", "Account"); // Kullanıcı giriş yapmamışsa giriş sayfasına yönlendirme
+                return RedirectToAction("Login", "Account"); 
             }
 
             await _cartService.AddToCartAsync(productId, user.Id);
